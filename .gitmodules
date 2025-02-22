@@ -1,3 +1,9 @@
-[submodule "Yolov5"]
-	path = Yolov5
+[submodule "Yolov5_StrongSORT_OSNet"]
+	path = Yolov5_StrongSORT_OSNet
+	url = https://github.com/DavidReveloLuna/Yolov5_StrongSORT_OSNet
+[submodule "Yolov5_StrongSORT_OSNet/yolov5"]
+	path = Yolov5_StrongSORT_OSNet/yolov5
 	url = https://github.com/ultralytics/yolov5
+[submodule "Yolov5_StrongSORT_OSNet/strong_sort/deep/reid"]
+	path = Yolov5_StrongSORT_OSNet/strong_sort/deep/reid
+	url = https://github.com/KaiyangZhou/deep-person-reid

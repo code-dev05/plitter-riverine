@@ -27,7 +27,7 @@ def detector(type='riverine'):
         weights_url = weights[type]['url']
         print('Downloading model from', weights_url)
         torch.hub.download_url_to_file(weights_url, str(weights[type]['weights']), hash_prefix=None, progress=True)
-    return torch.hub.load(str(ROOT / 'Yolov5/'), 'custom', str(weights[type]['weights']), force_reload=True, source='local')
+    return torch.hub.load(str(ROOT / 'Yolov5_StrongSORT_OSNet/yolov5'), 'custom', str(weights[type]['weights']), force_reload=True, source='local')
 
 trackers = ['strongsort']
 
